@@ -13,6 +13,7 @@ const newRoomEndpoint =
  */
 async function createRoom() {
 
+  /*
   const exp = Math.round(Date.now() / 1000) + 60 * 30;
   const options = {
     properties: {
@@ -26,9 +27,10 @@ async function createRoom() {
   }),
     room = await response.json();
   return room;
+  */
 
   // Comment out the above and uncomment the below, using your own URL
-  // return { url: "https://your-domain.daily.co/hello" };
+   return { url: "https://sam-chat.daily.co/new-prebuilt-test" };
 }
 
 export default { createRoom };
