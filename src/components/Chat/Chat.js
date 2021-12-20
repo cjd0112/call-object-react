@@ -74,7 +74,7 @@ export default function Chat(props) {
           id="chatInput"
           className="chat-input"
           type="text"
-          placeholder="Type your message here.."
+          placeholder="Type your message here you jerk.."
           value={inputValue}
           onChange={handleChange}
         ></input>
