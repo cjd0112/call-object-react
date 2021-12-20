@@ -2,6 +2,7 @@ const newRoomEndpoint =
   `${window.location.origin}/api/rooms`;
 
 /**
+ * this is a test
  * Create a short-lived room for demo purposes.
  *
  * It uses the redirect proxy as specified in netlify.toml`
